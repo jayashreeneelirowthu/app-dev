@@ -1,0 +1,91 @@
+section {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background-image: url('C:\Users\91970\Desktop\tree-3358468_1280.jpg');
+  background-size: cover; */
+  background-position: center ;
+}
+.container{
+  height: 90%;
+  position: relative;
+  width: 450px;
+  height: 675px;
+  margin: 0 auto;
+  padding: 40px;
+  background: transparent;
+  border: 3px solid #f0e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(231, 206, 18, 0.195);
+}
+.container h2 {
+  font-size: 25px;
+  color: #000000;
+  /* text-align: center;
+  margin-bottom: 20px; */
+}
+.from{
+  width: 100%;
+}
+.from{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.form-group{
+  width: 100%;
+  margin-bottom: 5px;
+  
+}
+.form-group label{
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 1px;
+}
+.form-group label{
+  width: 100%;
+  padding: 1px;
+}
+.form-control{
+  width:300px;
+  height: 30px;
+  box-shadow: skyblue;
+  /* box-sizing: border-box; */
+}
+.btn{
+  width: 100%;
+  padding: 5px;
+  background-color: #007bff ;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #005ef6;
+}
+
+.redirectR{
+  margin-top:  10px;
+  text-align: center;
+}
+.redirectR a{
+  color: #007bff;
+  text-decoration: none;
+}
+.redirectR a:hover{
+  text-decoration: underline;
+}
+.errors{
+  color:red;
+} 
