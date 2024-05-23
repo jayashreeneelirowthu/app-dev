@@ -5,7 +5,7 @@
   </head>
   <body>
     <div class="container">
-      <h1> Login </h1>
+      <h1> Login  page </h1>
       <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <label for="username">Username</label>
@@ -69,8 +69,7 @@
           <button
             type="submit"
             class="btn btn-primary"
-            [disabled]="loginForm.invalid"
-          >
+            [disabled]="loginForm.invalid">
             Login
           </button>
         </div>
