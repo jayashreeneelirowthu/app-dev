@@ -1,0 +1,155 @@
+.search-box {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.search-row {
+  display: flex;
+  align-items: center;
+}
+
+.search-row input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.result-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-box li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.result-box li:hover {
+  background-color: #f0f0f0;
+}
+
+.data-section {
+  margin-top: 20px;
+}
+
+.data-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social h4 {
+  margin: 5px 0;
+}
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #b7cee9;
+    color: #000000;
+  }
+  
+  .search-box {
+    width: 500px;
+    background: #fff;
+    margin: 20px auto 0;
+    border-radius: 5px;
+  }
+  
+  .search-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  input {
+    flex: 1;
+    height: 25px;
+    width: 2px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    width: 2em;
+  }
+  
+  button .ion-icon {
+    width: 250px;
+    color: #b70d0d;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  ::placeholder {
+    color: #3d3b3b;
+  }
+  
+  .result-box ul {
+    border-top: 1px solid #999;
+  }
+  
+  .result-box ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+  }
+  
+  .result-box ul li:hover {
+    background-color: #e9f3ff;
+  }
+  
+  .result-box {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .social h4 {
+    margin: 0;
+    padding: 5px;
+  }
+   */
