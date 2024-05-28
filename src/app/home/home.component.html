@@ -1,0 +1,27 @@
+ <!-- <p>home works!</p>
+<p>home works!</p> -->
+ <div class="search-box">
+    <div class="search-row">
+      <input type="text" [(ngModel)]="searchQuery" (keyup)="filterResults()" placeholder="Search Here anything..." autocomplete="off"/>
+      <button type="submit" class="search-button">
+        <!-- <ion-icon name="search-outline"></ion-icon> -->
+      </button>
+    </div>
+    <div class="result-box" *ngIf="filteredResults.length">
+      <ul>
+        <li *ngFor="let result of filteredResults" (click)="selectResult(result)">
+          {{ result }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="data-section">
+    <p>{{ homeData }}</p>
+    <button (click)="sendHomeData()">Send data to backend</button>
+  </div>
+  <div class="social">
+    <h4>Social</h4>
+    <h4>Shopping</h4>
+  </div> 
+   
