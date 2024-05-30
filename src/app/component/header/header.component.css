@@ -1,0 +1,36 @@
+.form-control{
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.search-icon{
+    position:absolute;
+    z-index: 10;
+    right: 35%;
+    top: 20px;
+    color: blue;
+}
+.container{
+    margin: 0px 5px;
+    text-align: center;
+    width: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+} 
+.item img{
+    width: 120px;
+    justify-content: space-between;
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+}
+.resized-image {
+    width: 400px;  
+    height: 150px; 
+   
+  }
+h6{
+ margin-top: 5px;
+ margin-right: 50px;
+}

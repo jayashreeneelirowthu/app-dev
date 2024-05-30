@@ -1,3 +1,14 @@
+body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTepSeGH5hmM12e9_We_xwPEPGDWbxGS1mXd5XStE7cQ7cSgxawub9T_yHwo79TcZUaqSQ&usqp=CAU');
+  background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(105, 199, 199);
+}
 
 header {
   display: flex;
@@ -5,94 +16,123 @@ header {
   align-items: center;
   height: 100vh;
   width: 100%;
-  /* background-image: url('C:\Users\91970\Desktop\tree-3358468_1280.jpg'); */
-   /* background-image: linear-gradient(to right, rgb(13, 109, 225),rgb(209, 239, 11));  */
-  background-size:cover;
-  background-position: center;
 }
-.container{
-  height: 70%;
-  /* padding-top: 100px; */
+
+.container {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 50%;
   position: relative;
-  width: 400px;
-  height: 450px;
+  width: 450px;
+  height: 440px;
   margin: 0 auto;
-  padding: 40px;
-  background:transparent;
-  border: 3px solid #f0e5e5;
+  padding: 4px;
+  background: transparent;
+  border: 1.5px solid #f0e5e5;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  align-items: center;
   border-radius: 30px;
-  box-shadow: 10px 10px 30px rgba(231, 206, 18, 0.195);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(.10px);
+  -webkit-backdrop-filter: blur(1000px);
 }
+
 .container h2 {
   font-size: 25px;
   color: #000000;
-  /* text-align: center;
-  margin-bottom: 20px; */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.form-group{
+.form-group {
   width: 100%;
-  margin-bottom: 5px;
-  
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
-.form-group label{
+.form-group a{
+  text-decoration: none;
+}
+.form-group label {
   font-weight: bold;
   margin-bottom: 10px;
   display: block;
 }
-.form-group label{
+
+.form-group label {
   width: 100%;
   padding: 1px;
 }
 
-
-.form-control{
-  /* width: calc(100% - 40px);for icon */
+.form-control {
   width: 300px;
   height: 30px;
   box-shadow: skyblue;
+  border-radius: 10px;
 }
 
-.btn{
-  width: 100%;
+.btn {
+  width: 30%;
+  left: 30px;
+  margin-left: 105px;
+  /* margin-bottom:20px; */
   padding: 5px;
-  background-color: #007bff ;
+  background-color: blue;
   border: none;
   border-radius: 5px;
-  color: #ffff;
+  color: white;
   font-weight: bold;
   cursor: pointer;
-}
-.btn:hover{
-  background-color: #005ef6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.redirectR{
-  margin-top:  10px;
+.btn:disabled {
+  background-color: darkgrey;
+  color: #ffff;
+  cursor: not-allowed;
+}
+
+.redirectR {
+  margin-top: -20px;
   text-align: center;
+  /* font-weight: bold; */
+  margin-top: -20px;
 }
-.redirectR a{
-  color: #007bff;
+
+.redirectR a {
+  color: blue;
+  text-decoration: none;
+  /* margin-top: -10px; */
+  /* margin-bottom: 10px; */
+}
+
+.redirectR a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+  /* margin-top: -20px; */
+}
+
+.forgot {
+  margin-left: 170px;
+  /* font-weight: bold; */
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.forgot a {
+  color: blue;
   text-decoration: none;
 }
-.redirectR a:hover{
+
+.forgot a:hover {
   text-decoration: underline;
+  font-size: 16.5px;
 }
-.forgot{
-  margin-left: 180px;
-}
-.forgot a{
-  color: #007bff;
-  text-decoration: none;
-}
-.forgot a:hover{
-  text-decoration: underline;
-}
-.errors{
-  color:red;
+
+.errors {
+  color: red;
 }

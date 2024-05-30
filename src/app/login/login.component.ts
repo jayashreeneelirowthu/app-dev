@@ -9,17 +9,24 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
   loginForm: FormGroup;
+  // autocompleteValue: string 
 
   constructor(private fb: FormBuilder, private router: Router) {
     this.loginForm = this.fb.group({
       username: ['', [Validators.required, Validators.minLength(3)]],
-      password: ['', [Validators.required, Validators.minLength(6)]]
+      password: ['', [Validators.required, Validators.minLength(3)]]
     });
-  }
+//     this.autocompleteValue = this.generateRandomString();
+ }
+//   generateRandomString(): string {
+//     const randomString = Math.random().toString(36).substring(7);
+//     return randomString;
+// }
 
   onSubmit() {
     if (this.loginForm.valid) {
       console.log(this.loginForm.value);
+      this.router.navigate(['/home']);
       alert('Login successful');
     } else {
       console.log('Form is invalid');
@@ -33,6 +40,7 @@ export class LoginComponent {
   onSignUp() {
     this.router.navigate(['/signup']);
   }
+ 
 }
 
 

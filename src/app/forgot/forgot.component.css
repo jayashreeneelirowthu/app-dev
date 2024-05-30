@@ -8,20 +8,28 @@ section {
     /* background-image: linear-gradient(to right, rgb(13, 109, 225),rgb(209, 239, 11));  */
     background-size:cover;
     background-position: center;
+    /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg');
+    background-repeat: no-repeat; */
+    background-color: rgb(39, 108, 108);
 }
 .container {
     position: relative;
     width: 400px;
-    height: 350px;
+    height: 300px;
     margin: 0 auto;
     padding: 40px;
     background: transparent;
-    border: 3px solid #f0e5e5;
+    border: 1.5px solid #f0e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
-    box-shadow: 10px 10px 30px rgba(231, 206, 18, 0.195);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
+    /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg');
+  background-repeat: no-repeat; */
+  background-size: cover;
+  backdrop-filter: blur(.10px);
+  -webkit-backdrop-filter: blur(1000px);
 }
 
 .container h2 {
@@ -58,7 +66,7 @@ section {
     background-color: #007bff;
     border: none;
     /* border-width: 100px; */
-    border-radius: 5px;
+    border-radius: 9px;
     color: #ffff;
     font-weight: bold;
     cursor: pointer;
@@ -71,13 +79,15 @@ section {
 .redirectR {
     margin-top: 10px;
     text-align: center;
+    /* font-weight: bold; */
 }
 
 .redirectR a {
-    color: #007bff;
+    color: rgb(4, 4, 255);
     text-decoration: none;
 }
 
 .redirectR a:hover {
     text-decoration: underline;
+    font-size: 17px;
 }
