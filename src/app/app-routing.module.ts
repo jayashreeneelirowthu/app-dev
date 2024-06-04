@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 import { HeaderComponent } from './component/header/header.component';
+import { ProductsComponent } from './component/products/products.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path:'home', component: HomeComponent},
   { path:'shopping', component: ShoppingComponent},
   { path:'socialmedia', component: SocialmediaComponent},
-  { path: 'header', component: HeaderComponent}
+  { path: 'header', component: HeaderComponent},
+  {path: 'products', component:ProductsComponent}
  
 ];
 

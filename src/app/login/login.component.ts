@@ -9,38 +9,31 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
   loginForm: FormGroup;
-  // autocompleteValue: string 
-
   constructor(private fb: FormBuilder, private router: Router) {
     this.loginForm = this.fb.group({
       username: ['', [Validators.required, Validators.minLength(3)]],
       password: ['', [Validators.required, Validators.minLength(3)]]
     });
-//     this.autocompleteValue = this.generateRandomString();
  }
-//   generateRandomString(): string {
-//     const randomString = Math.random().toString(36).substring(7);
-//     return randomString;
-// }
-
   onSubmit() {
     if (this.loginForm.valid) {
-      console.log(this.loginForm.value);
+      // console.log(this.loginForm.value);
+      if (this.loginForm.controls['username'].value =='admin' && this.loginForm.controls['password'].value =='admin'){
       this.router.navigate(['/home']);
-      alert('Login successful');
+      }
+      else{
+        alert('invalid credentials');
+      }
     } else {
-      console.log('Form is invalid');
+      // console.log('Form is invalid');
     }
   }
-
   onForgotPassword() {
-    console.log('Redirect to forgot password page');
+    // console.log('Redirect to forgot password page');
   }
-
   onSignUp() {
     this.router.navigate(['/signup']);
   }
- 
 }
 
 

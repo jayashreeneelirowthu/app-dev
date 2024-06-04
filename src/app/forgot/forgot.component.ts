@@ -8,28 +8,20 @@ import { Router} from '@angular/router';
   styleUrls: ['./forgot.component.css']
 })
 export class ForgotComponent implements OnInit{
-  
   forgotForm!: FormGroup;
   submitted = false;
-
-  constructor(private formBuilder: FormBuilder, private router: Router) { }
-  
+  constructor(private formBuilder: FormBuilder, private router: Router) { } 
   ngOnInit(): void {
     this.forgotForm = this.formBuilder.group({
       email:['', [Validators.required, Validators.email]]
     });
   }
-
   get f() { return this.forgotForm.controls; }
-
   onSubmit(): void{
     this.submitted = true;
     if(this.forgotForm.invalid){
       return;
     }
-    console.log('Email:, this.forgotForm.value.email');  // password reset logic h
-
-    this.router.navigate(['/login']); //redirect login page after successful submission
+    this.router.navigate(['/login']); 
   }
-
 }

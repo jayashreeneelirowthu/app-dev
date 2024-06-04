@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 import { HeaderComponent } from './component/header/header.component';
+import { ProductsComponent } from './component/products/products.component';
+import { CartComponent } from './component/cart/cart.component';
+import { ProductcardComponent } from './component/productcard/productcard.component';
 
 
 
@@ -24,6 +27,9 @@ import { HeaderComponent } from './component/header/header.component';
     ShoppingComponent,
     SocialmediaComponent,
     HeaderComponent,
+    ProductsComponent,
+    CartComponent,
+    ProductcardComponent,
     
    
   ],

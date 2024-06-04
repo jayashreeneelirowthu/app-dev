@@ -4,12 +4,8 @@ section {
     align-items: center;
     height: 100vh;
     width: 100%;
-    /* background-image: url('C:\Users\91970\Desktop\tree-3358468_1280.jpg'); */
-    /* background-image: linear-gradient(to right, rgb(13, 109, 225),rgb(209, 239, 11));  */
     background-size:cover;
     background-position: center;
-    /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg');
-    background-repeat: no-repeat; */
     background-color: rgb(39, 108, 108);
 }
 .container {
@@ -25,31 +21,25 @@ section {
     align-items: center;
     border-radius: 30px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
-    /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg');
-  background-repeat: no-repeat; */
-  background-size: cover;
-  backdrop-filter: blur(.10px);
-  -webkit-backdrop-filter: blur(1000px);
+    background-size: cover;
+    backdrop-filter: blur(.10px);
+   -webkit-backdrop-filter: blur(1000px);
 }
-
 .container h2 {
     font-size: 25px;
     color: #000000;
     text-align: center;
     margin-bottom: 20px;
 }
-
 .form-group {
     width: 100%;
     margin-bottom: 5px;
 }
-
 .form-group label {
     font-weight: bold;
     margin-bottom: 10px;
     display: block;
 }
-
 .form-group label {
     width: 300%;
     padding: 2px;
@@ -57,36 +47,28 @@ section {
 .form-control{
     width: 300px;
     height: 30px;
-    /* border-width: 1px; */
 }
-
 .btn {
     width: 100%;
     padding: 5px;
     background-color: #007bff;
     border: none;
-    /* border-width: 100px; */
     border-radius: 9px;
     color: #ffff;
     font-weight: bold;
     cursor: pointer;
 }
-
 .btn:hover {
     background-color: #005ef6;
 }
-
 .redirectR {
     margin-top: 10px;
     text-align: center;
-    /* font-weight: bold; */
 }
-
 .redirectR a {
     color: rgb(4, 4, 255);
     text-decoration: none;
 }
-
 .redirectR a:hover {
     text-decoration: underline;
     font-size: 17px;

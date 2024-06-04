@@ -1,6 +1,4 @@
 body {
-  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTepSeGH5hmM12e9_We_xwPEPGDWbxGS1mXd5XStE7cQ7cSgxawub9T_yHwo79TcZUaqSQ&usqp=CAU');
-  background-repeat: no-repeat; */
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -9,7 +7,6 @@ body {
   display: flex;
   background-color: rgb(105, 199, 199);
 }
-
 header {
   display: flex;
   justify-content: center;
@@ -17,7 +14,6 @@ header {
   height: 100vh;
   width: 100%;
 }
-
 .container {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 50%;
@@ -37,7 +33,6 @@ header {
   backdrop-filter: blur(.10px);
   -webkit-backdrop-filter: blur(1000px);
 }
-
 .container h2 {
   font-size: 25px;
   color: #000000;
@@ -45,7 +40,6 @@ header {
   margin-bottom: 20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .form-group {
   width: 100%;
   margin-bottom: 10px;
@@ -59,24 +53,20 @@ header {
   margin-bottom: 10px;
   display: block;
 }
-
 .form-group label {
   width: 100%;
   padding: 1px;
 }
-
 .form-control {
   width: 300px;
   height: 30px;
   box-shadow: skyblue;
   border-radius: 10px;
 }
-
 .btn {
   width: 30%;
   left: 30px;
   margin-left: 105px;
-  /* margin-bottom:20px; */
   padding: 5px;
   background-color: blue;
   border: none;
@@ -89,50 +79,37 @@ header {
   justify-content: center;
   margin-top: 20px;
 }
-
 .btn:disabled {
   background-color: darkgrey;
   color: #ffff;
   cursor: not-allowed;
 }
-
 .redirectR {
   margin-top: -20px;
   text-align: center;
-  /* font-weight: bold; */
   margin-top: -20px;
 }
-
 .redirectR a {
   color: blue;
   text-decoration: none;
-  /* margin-top: -10px; */
-  /* margin-bottom: 10px; */
 }
-
 .redirectR a:hover {
   text-decoration: underline;
   font-size: 17px;
-  /* margin-top: -20px; */
 }
-
 .forgot {
   margin-left: 170px;
-  /* font-weight: bold; */
   text-decoration: none;
   margin-top: 20px;
 }
-
 .forgot a {
   color: blue;
   text-decoration: none;
 }
-
 .forgot a:hover {
   text-decoration: underline;
   font-size: 16.5px;
 }
-
 .errors {
   color: red;
 }

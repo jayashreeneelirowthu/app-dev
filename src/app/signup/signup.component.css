@@ -1,26 +1,20 @@
 
 body{
-  /* background-color: rgb(149, 251, 251);
-   */
    background-color: rgb(77, 161, 161);
    background-repeat: no-repeat;
    background-size: cover;
    height:700px;
    padding-top: 40px;
-   /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg'); */
-}
+   }
   section {
   display: flex;
   justify-self: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  /* background-image: url('C:\Users\91970\Desktop\tree-3358468_1280.jpg');
-  background-size: cover; */
   background-position: center ;
 }
 .container{
-  /* background: transparent; */
   opacity: 0.9;
   background: rgba(255,255,255,0.2);
   backdrop-filter: blur(.10px);
@@ -42,13 +36,10 @@ body{
   box-shadow: 0px 4px 30px rgba(0,0,0,0.6);
   background-repeat: no-repeat;
    background-size: cover;
-   /* background-image: url('https://t3.ftcdn.net/jpg/01/35/31/90/360_F_135319014_6wUC4QfuPMeVT0m4Dm6cMVYBOweeRJKO.jpg'); */
-}
+   }
 .container h2 {
   font-size: 25px;
   color: #000000;
-  /* text-align: center;
-  margin-bottom: 20px; */
 }
 .from{
   width: 100%;
@@ -84,7 +75,6 @@ body{
   width:300px;
   height: 30px;
   box-shadow: skyblue;
-  /* box-sizing: border-box; */
 }
 .btn{
   width: 100%;
