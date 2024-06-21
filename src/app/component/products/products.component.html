@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="container">
+    <div *ngFor="let product of products" class="card">
+        <a>
+            <div class="mens">
+            </div>
+        </a>
+        <div class="titles">
+            <h5>{{product.title}}</h5>
+            <h5>price: {{product.price}}</h5>
+        </div>
+        <button>Add to Cart</button> 
+    </div><br>
+</div>

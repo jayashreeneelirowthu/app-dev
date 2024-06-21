@@ -13,11 +13,8 @@ today: any;
 constructor(private fb: FormBuilder) {
   const todayDate = new Date();
   this.today = todayDate.toISOString().split('T')[0]; 
-
   this.signupForm = this.fb.group({
       FullName: ['', [Validators.required, Validators.pattern('^[a-zA-Z]+$')]],
-      // firstName: ['', [Validators.required, Validators.pattern('^[a-zA-Z]+$')]],
-      // lastName: ['', [Validators.required, Validators.pattern('^[a-zA-Z]+$')]],
       dateOfBirth: ['', [Validators.required, this.pastDateValidator]],
       country: ['', Validators.required],
       mobileNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
@@ -27,24 +24,20 @@ constructor(private fb: FormBuilder) {
       confirmPassword: ['', Validators.required]
     }, { validator: this.passwordMatchValidator });
   }
-
   pastDateValidator(control: any) {
     const inputDate = new Date(control.value);
     const today = new Date();
     return inputDate < today ? null : { pastDate: true };
   }
-
   passwordMatchValidator(form: FormGroup) {
     return form.get('password')?.value === form.get('confirmPassword')?.value
       ? null : { mismatch: true };
   }
-
   onSubmit() {
     if (this.signupForm.valid) {
-      console.log(this.signupForm.value);
+      // console.log(this.signupForm.value);
     } else {
-      console.log('Form is invalid');
+      // console.log('Form is invalid');
     }
   }
-
 }

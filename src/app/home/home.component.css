@@ -153,3 +153,34 @@
     padding: 5px;
   }
    */
+.social-media-img{
+  background-image: url('scmimages\sm.jpg');
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 12px;
+}
+.shop-img{
+  background-image: url('scmimages\shopping.jpg');
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 12px;
+}
+.align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(68, 69, 92);
+  height: 100vh;
+  width: 100%;
+}
+.align-items{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.align-items div h2{
+  text-align: center;
+} 
