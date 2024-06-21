@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    justify-content: space-between; 
+    justify-items: auto;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: space-around; 
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.mens {
+    background-image: url('scmimages\checks shirt.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.white-shirt{
+    background-image: url('scmimages\white shirt.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.kurta-set{
+    background-image: url('scmimages\kurta set.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.suit{
+    background-image: url('scmimages\suit.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.Traditional{
+    background-image: url('scmimages\traditional.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.wedding{
+    background-image: url('scmimages\wedding.jpeg');
+    height: 150px;
+    width: 120px;
+    background-size: cover  ;
+}
+.formal{
+    background-image: url('scmimages\formal.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.sweatshirt{
+    background-image: url('scmimages\sweatshirt.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.saree{
+    background-image: url('scmimages\saree.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.black-kurtaset{
+    background-image: url('scmimages\black kurta set.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.kurti{
+    background-image: url('scmimages\kurti.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.tshirt-torn{
+    background-image: url('scmimages\tshirttone.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.western{
+    background-image: url('scmimages\western.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
+.red-frock{
+    background-image: url('scmimages\red frock.jpeg');
+    height: 150px;
+    width: 130px;
+    background-size: cover  ;
+}
